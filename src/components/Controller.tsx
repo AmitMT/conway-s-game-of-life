@@ -50,7 +50,7 @@ const Tile: FC<TileProps> = ({ gameActive, setGameActive, speed, setSpeed, size,
           type="range"
           value={speed}
           min="10"
-          max="1000"
+          max="500"
           className="w-40 mt-8 mb-2"
           onChange={(e) => {
             setSpeed(parseInt(e.target.value, 10));
